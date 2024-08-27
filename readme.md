@@ -11,7 +11,7 @@ conda env create -f environment.yml
 
 ## Datasets
 You can download the datasets at [huggingface](https://huggingface.co/datasets/cindermond/bento). 
-We also support directly load datasets from huggingface by adding '--use_remote_data' flag in the evaluation script. In that case, '--data_folder' should be a cache directory to save the downloaded data.
+We also support directly load datasets from huggingface by adding '--use_remote_data' flag in the inference script. In that case, '--data_folder' should be a cache directory to save the downloaded data.
 
 ## Inference
 We provide an [example inference script](inference.sh).
