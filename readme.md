@@ -1,7 +1,7 @@
 # Benchmark Reduction with In-Context Transferability
 This is the Github repo for Our paper 'Benchmark Reduction with In-Context Transferability'.
 
-![image](images/combined-graph)
+![image](images/combined-graph.png)
 
 ## Usage
 You can install the environments with 
