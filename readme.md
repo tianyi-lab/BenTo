@@ -1,6 +1,13 @@
 # Benchmark Reduction with In-Context Transferability
 This is the Github repo for Our paper 'Benchmark Reduction with In-Context Transferability'.
 
+Evaluating large language models (LLMs) is costly: it requires generation and examination on a large benchmark of various tasks. 
+This paper investigates how to efficiently reduce the tasks benchmarking LLMs without affecting the evaluation results. 
+Our study reveals that task transferability and relevance provide critical information to identify the most representative subset of tasks via optimizing a facility location function.
+We propose a practically efficient metric for estimating the transferability between two tasks via in-context learning (ICL). 
+By analyzing the pairwise transferability, we can reduce tasks in a modern LLM benchmark (e.g., MMLU or FLAN) to 5\% while inducing only a $<4$\% difference to the evaluation on the original benchmark. 
+Compared to prior works, our method is training-free and gradient-free. It solely relies on ICL and achieves significant advantages in efficiency. 
+
 ![image](images/combined-graph.png)
 
 ## Usage
