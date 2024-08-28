@@ -17,14 +17,23 @@ We also support directly load datasets from huggingface by adding '--use_remote_
 We provide an [example inference script](inference.sh).
 
 Explanation of arguments: 
+
 '--task', available options are 'mmlu', 'flan', 'bbh' and 'agieval'.
+
 '--data_folder', the path of the local data folder, or the cache dir for data if '--use_remote_data' is set.
+
 '--cache_dir', the cache dir for the model and tokenizer.
+
 '--use_remote_data', if directly load data from huggingface.
+
 '--is_reduced', if evaluate on the reduced dataset.
+
 '--example_num', number of examplars for ICL. Useless when task='bbh'.
+
 '--eval_times', times of evaluation for each test sample, each time the examplars are randomly sampled/ordered. The final result is the average of all evaluations. Useless when task='bbh'.
+
 '--output_filename', a json file that will be produced in the evaluation, containing all the responses. Useless when task=flan.
+
 '--model', name of the model.
 
 If you need to use gated Huggingface models, set the environmental variable 'HF_TOKEN' to your personal Huggingface token before running the script.
