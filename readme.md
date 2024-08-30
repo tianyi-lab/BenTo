@@ -68,6 +68,7 @@ The "reduced" benchmark only contains a few representative tasks in the original
 ### Citation
 Please consider cite our paper and the original datasets if you find this work useful.
 
+```
 @article{zhao2024bento,
   title={Benchmark Reduction with In-Context Transferability},
   author={Hongyu Zhao and Ming Li and Tianyi Zhou},
@@ -118,3 +119,4 @@ Please consider cite our paper and the original datasets if you find this work u
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
