@@ -1,4 +1,7 @@
 # Benchmark Reduction with In-Context Transferability
+[![ArXiv](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
+[![Data](https://img.shields.io/badge/MODEL%20License-CC%20By%20NC%204.0-red.svg)](https://huggingface.co/datasets/cindermond/bento)
+[![Demo-script](https://img.shields.io/badge/llava_onevision-checkpoints-blue)](inference.sh)
 This is the Github repo for Our paper 'Benchmark Reduction with In-Context Transferability'.
 
 Evaluating large language models (LLMs) is costly: it requires generation and examination on a large benchmark of various tasks. 
