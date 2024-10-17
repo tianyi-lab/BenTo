@@ -9,6 +9,7 @@ By analyzing the pairwise transferability, we can reduce tasks in a modern LLM b
 Compared to prior works, our method is training-free and gradient-free. It solely relies on ICL and achieves significant advantages in efficiency. 
 
 ![image](images/combined-graph.png)
+![image](images/combined-graph2.png)
 
 | Model            | MMLU(100%) | MMLU<sub>BenTo</sub> | Relative Error   | BBH(100%) | BBH<sub>BenTo</sub> | Relative Error   |
 |------------------|-------------------|------------------------|------|-------------------|------------------------|------|
