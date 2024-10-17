@@ -73,7 +73,7 @@ Please consider cite our paper if you find this work useful.
 ```
 @article{zhao2024bento,
   title={Benchmark Reduction with In-Context Transferability},
-  author={Hongyu Zhao and Ming Li and Tianyi Zhou},
+  author={Hongyu Zhao and Ming Li and Lichao Sun and Tianyi Zhou},
   journal={arXiv preprint},
   year={2024}
 }
