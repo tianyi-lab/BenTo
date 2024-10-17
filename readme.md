@@ -17,10 +17,10 @@ Compared to prior works, our method is training-free and gradient-free. It solel
 | Llama-3-8b       | 61.7 (69.4)       | 60.2                  | 0.02 | 59.1 (61.1)       | 57.6                   | 0.03 |
 | Mistral-7b-v0.3  | 62.1 (61.1)       | 62.2                  | 0.00 | 56.3 (56.0)       | 56.0                   | 0.01 |
 | Phi-2            | 56.5 (56.7)       | 56.7                  | 0.00 | 58.6 (59.2)       | 56.7                   | 0.03 |
+| Phi-3-mini-4k    | 69.5 (70.9)       | 70.0                  | 0.01 | 70.2 (73.5)       | 64.2                   | 0.09 |
+| StableLM-2-1.6B  | 34.6 (-)          | 34.7                  | 0.00 | 23.4 (-)          | 20.7                   | 0.12 |
+| TinyLlama        | 24.9 (26.6)       | 25.9                  | 0.04 | 25.1 (29.3)       | 25.1                   | 0.00 |
 | Gemma-7b         | 65.2 (64.3)       | 63.4                  | 0.03 | -                 | -                      | -    |
-| Phi-3-mini-4k    | 69.5 (70.9)       | 70.0                  | 0.01 | -                 | -                      | -    |
-| StableLM-2-1.6B  | 34.6 (-)          | 34.7                  | 0.00 | -                 | -                      | -    |
-| TinyLlama        | 24.9 (26.6)       | 25.9                  | 0.04 | -                 | -                      | -    |
 
 *The numbers in parentheses indicate values reported by previous works.
 
