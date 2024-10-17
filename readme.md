@@ -10,7 +10,7 @@ Compared to prior works, our method is training-free and gradient-free. It solel
 
 ![image](images/combined-graph.png)
 
-| Model            | MMLU<sub>gt</sub> | MMLU<sub>reduced</sub> | Relative Error   | BBH<sub>gt</sub> | BBH<sub>reduced</sub> | Relative Error   |
+| Model            | MMLU(100%) | MMLU<sub>BenTo</sub> | Relative Error   | BBH(100%) | BBH<sub>BenTo</sub> | Relative Error   |
 |------------------|-------------------|------------------------|------|-------------------|------------------------|------|
 | Llama-2-13b      | 54.5 (54.8)*       | 53.9                  | 0.01 | 45.3 (39.4)       | 49.6                   | 0.09 |
 | Llama-2-7b       | 46.0 (45.3)       | 49.8                  | 0.08 | 37.1 (32.6)       | 35.4                   | 0.05 |
@@ -68,7 +68,7 @@ The non-"reduced" benchmark on huggingface is the original benchmark, except for
 The "reduced" benchmark only contains a few representative tasks in the original ones, such that the performance on the "reduced" benchmark can serve as an approximation to the performance on the original ones.
 
 ### Citation
-Please consider cite our paper and the original datasets if you find this work useful.
+Please consider cite our paper if you find this work useful.
 
 ```
 @article{zhao2024bento,
@@ -76,49 +76,5 @@ Please consider cite our paper and the original datasets if you find this work u
   author={Hongyu Zhao and Ming Li and Tianyi Zhou},
   journal={arXiv preprint},
   year={2024}
-}
-
-@article{hendryckstest2021,
-  title={Measuring Massive Multitask Language Understanding},
-  author={Dan Hendrycks and Collin Burns and Steven Basart and Andy Zou and Mantas Mazeika and Dawn Song and Jacob Steinhardt},
-  journal={Proceedings of the International Conference on Learning Representations (ICLR)},
-  year={2021}
-}
-
-@article{hendrycks2021ethics,
-  title={Aligning AI With Shared Human Values},
-  author={Dan Hendrycks and Collin Burns and Steven Basart and Andrew Critch and Jerry Li and Dawn Song and Jacob Steinhardt},
-  journal={Proceedings of the International Conference on Learning Representations (ICLR)},
-  year={2021}
-}
-
-@article{longpre2023flan,
-  title={The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},
-  author={Longpre, Shayne and Hou, Le and Vu, Tu and Webson, Albert and Chung, Hyung Won and Tay, Yi and Zhou, Denny and Le, Quoc V and Zoph, Barret and Wei, Jason and others},
-  journal={arXiv preprint arXiv:2301.13688},
-  year={2023}
-}
-
-@article{srivastava2022beyond,
-  title={Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models},
-  author={Srivastava, Aarohi and Rastogi, Abhinav and Rao, Abhishek and Shoeb, Abu Awal Md and Abid, Abubakar and Fisch, Adam and Brown, Adam R and Santoro, Adam and Gupta, Aditya and Garriga-Alonso, Adri{\`a} and others},
-  journal={arXiv preprint arXiv:2206.04615},
-  year={2022}
-}
-
-@article{suzgun2022challenging,
-  title={Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them},
-  author={Suzgun, Mirac and Scales, Nathan and Sch{\"a}rli, Nathanael and Gehrmann, Sebastian and Tay, Yi and Chung, Hyung Won and Chowdhery, Aakanksha and Le, Quoc V and Chi, Ed H and Zhou, Denny and and Wei, Jason},
-  journal={arXiv preprint arXiv:2210.09261},
-  year={2022}
-}
-
-@misc{zhong2023agieval,
-      title={AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models}, 
-      author={Wanjun Zhong and Ruixiang Cui and Yiduo Guo and Yaobo Liang and Shuai Lu and Yanlin Wang and Amin Saied and Weizhu Chen and Nan Duan},
-      year={2023},
-      eprint={2304.06364},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
 }
 ```
