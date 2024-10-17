@@ -20,9 +20,10 @@ Compared to prior works, our method is training-free and gradient-free. It solel
 | Phi-3-mini-4k    | 69.5 (70.9)       | 70.0                  | 0.01 | 70.2 (73.5)       | 64.2                   | 0.09 |
 | StableLM-2-1.6B  | 34.6 (-)          | 34.7                  | 0.00 | 23.4 (-)          | 20.7                   | 0.12 |
 | TinyLlama        | 24.9 (26.6)       | 25.9                  | 0.04 | 25.1 (29.3)       | 25.1                   | 0.00 |
-| Gemma-7b         | 65.2 (64.3)       | 63.4                  | 0.03 | -                 | -                      | -    |
+| Gemma-7b         | 65.2 (64.3)       | 63.4                  | 0.03 | -**                 | -                      | -    |
 
 *The numbers in parentheses indicate values reported by previous works.
+**Gemma-7b doesn't output answers in the correct format in our experiments.
 
 ## Usage
 You can install the environments with 
