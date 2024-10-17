@@ -23,6 +23,7 @@ Compared to prior works, our method is training-free and gradient-free. It solel
 | Gemma-7b         | 65.2 (64.3)       | 63.4                  | 0.03 | -**                 | -                      | -    |
 
 *The numbers in parentheses indicate values reported by previous works.
+
 **Gemma-7b doesn't output answers in the correct format in our experiments.
 
 ## Usage
