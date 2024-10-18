@@ -1,5 +1,7 @@
-# Benchmark Reduction with In-Context Transferability
+# BenTo: Benchmark Reduction with In-Context Transferability
 This is the Github repo for Our paper 'Benchmark Reduction with In-Context Transferability'.
+
+[arXiv](https://arxiv.org/abs/2410.13804)
 
 Evaluating large language models (LLMs) is costly: it requires generation and examination on a large benchmark of various tasks. 
 This paper investigates how to efficiently reduce the tasks benchmarking LLMs without affecting the evaluation results. 
