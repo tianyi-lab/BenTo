@@ -13,7 +13,7 @@ Compared to prior works, our method is training-free and gradient-free. It solel
 ![image](images/combined-graph.png)
 ![image](images/combined-graph2.png)
 
-| Model            | MMLU(100%) | MMLU<sub>BenTo</sub> | Relative Error   | BBH(100%) | BBH<sub>BenTo</sub> | Relative Error   |
+| Model            | MMLU(100%) | MMLU<sub>BenTo</sub>(5%) | Relative Error   | BBH(100%) | BBH<sub>BenTo</sub>(5%) | Relative Error   |
 |------------------|-------------------|------------------------|------|-------------------|------------------------|------|
 | Llama-2-13b      | 54.5 (54.8)*       | 53.9                  | 0.01 | 45.3 (39.4)       | 49.6                   | 0.09 |
 | Llama-2-7b       | 46.0 (45.3)       | 49.8                  | 0.08 | 37.1 (32.6)       | 35.4                   | 0.05 |
